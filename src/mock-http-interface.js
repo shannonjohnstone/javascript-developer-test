@@ -25,6 +25,7 @@ const httpGet = async (url) => {
     return { status: 200, body: JSON.stringify({ message }) };
   } 
   catch (err) {
+    throw err
     return { status: 500, body: JSON.stringify({ message: err.message }) };
   }
 };
