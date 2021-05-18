@@ -38,7 +38,7 @@ async function resolveArnieQuote(url) {
 
 /**
  * getArnieQuotes - returns array of arnie quote data
- * @param {Array} urls 
+ * @param {Array<String>} urls 
  * @returns {Array<Object>}
  */
 const getArnieQuotes = async (urls) => {
