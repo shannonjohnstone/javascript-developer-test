@@ -11,7 +11,7 @@ function formatArnieResponse({ status, message }) {
 }
 
 /**
- * requestArnieQuote - returns request data
+ * requestArnieQuote - returns arnie request data
  * @param {String} url 
  * @returns {Object}
  */
@@ -23,7 +23,7 @@ async function requestArnieQuote(url) {
 }
 
 /**
- * resolveArnieQuote - requests and returns single formate arnie quote
+ * resolveArnieQuote - requests and returns single formatted arnie quote data
  * @param {String} url 
  * @returns {Object}
  */
